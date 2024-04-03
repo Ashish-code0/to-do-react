@@ -1,0 +1,42 @@
+.task-card{
+    width: 400px;
+    padding: 10px 20px;
+    background-color: #256669;
+    border-radius: 25px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.task-name{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 5px;
+    color: white;
+}
+.category{
+    position: absolute;
+    font-family: serif;
+    background-color: white;
+    right: 90px;
+    font-size: 15px;
+    color: #256669;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+.delete-section{
+    position: absolute;
+    right: 0;
+    bottom:0px;
+    background-color: white;
+    padding: 11.5px 18px;
+    border: 2px solid #256669;
+    border-radius: 0 20px 20px 0;
+    margin: 0;
+    cursor: pointer;
+}
+.delete-icon{
+    height: 20px;
+    cursor: pointer;
+}
